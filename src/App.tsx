@@ -210,7 +210,7 @@ const Hero = () => (
   <section className="relative min-h-screen flex items-center justify-center overflow-hidden bg-brand-blue">
     <div className="absolute inset-0 z-0">
       <img 
-        src="http://telansolutions.com/wp-content/uploads/2016/08/TELAN-24-642x300.jpg" 
+        src="https://raw.githubusercontent.com/telanwebsite-ai/Telan-Solutions/refs/heads/main/src/images/Telan_Landing.jpg" 
         alt="Telan Solutions Office" 
         className="w-full h-full object-cover opacity-30 scale-105"
       />
@@ -1617,39 +1617,54 @@ const Footer = () => (
           <p className="text-slate-400">
             A premier receivables management firm based in the Philippines, dedicated to excellence and people-first culture.
           </p>
-          <div className="flex space-x-4">
-            <Globe className="w-5 h-5 cursor-pointer hover:text-brand-gold" />
-            <Phone className="w-5 h-5 cursor-pointer hover:text-brand-gold" />
-            <Mail className="w-5 h-5 cursor-pointer hover:text-brand-gold" />
+          <div className="flex space-x-4 items-center">
+            <a 
+              href="https://www.facebook.com/teamtelan/" 
+              target="_blank" 
+              rel="noopener noreferrer" 
+              className="p-1 text-slate-400 hover:text-brand-gold transition-colors duration-200"
+              title="Follow us on Facebook"
+            >
+              <Facebook className="w-5 h-5" />
+            </a>
+            <Link 
+              to="/" 
+              className="p-1 text-slate-400 hover:text-brand-gold transition-colors duration-200"
+              title="Visit Web Home"
+            >
+              <Globe className="w-5 h-5" />
+            </Link>
+            <a 
+              href="tel:+63286406600" 
+              className="p-1 text-slate-400 hover:text-brand-gold transition-colors duration-200"
+              title="Call us"
+            >
+              <Phone className="w-5 h-5" />
+            </a>
+            <a 
+              href="mailto:info@telanlaw.com" 
+              className="p-1 text-slate-400 hover:text-brand-gold transition-colors duration-200"
+              title="Email us"
+            >
+              <Mail className="w-5 h-5" />
+            </a>
           </div>
-        </div>
-        
-        <div>
-          <h4 className="text-white font-bold mb-6">Quick Links</h4>
-          <ul className="space-y-4">
-            <li><Link to="/" className="hover:text-brand-gold">Home</Link></li>
-            <li><Link to="/about" className="hover:text-brand-gold">About</Link></li>
-            <li><Link to="/culture" className="hover:text-brand-gold">Our Culture</Link></li>
-            <li><Link to="/technology" className="hover:text-brand-gold">Technology</Link></li>
-            <li><Link to="/jobs" className="hover:text-brand-gold">Open Jobs</Link></li>
-          </ul>
-        </div>
 
-        <div>
-          <h4 className="text-white font-bold mb-6">Location</h4>
-          <div className="space-y-4 text-sm">
-            <p className="flex items-start">
-              <MapPin className="w-5 h-5 mr-3 text-brand-gold shrink-0" />
-              <span>One San Miguel Avenue Building, Shaw Blvd Ortigas Center, Pasig, <br />NCR, Philippines</span>
-            </p>
-            <p className="flex items-center">
-              <Phone className="w-5 h-5 mr-3 text-brand-gold" />
-              <span>+63 (02) 8640-6600</span>
-            </p>
-            <p className="flex items-center">
-              <Mail className="w-5 h-5 mr-3 text-brand-gold" />
-              <span>info@telanlaw.com</span>
-            </p>
+          <div className="pt-4 border-t border-slate-900 flex items-center space-x-3.5">
+            <img 
+              src="https://raw.githubusercontent.com/telanwebsite-ai/Telan-Solutions/refs/heads/main/src/images/NPC_DPO_DPS_CERT.png" 
+              alt="National Privacy Commission Registered" 
+              className="h-12 w-auto object-contain bg-white rounded-lg p-1 shadow-md shadow-black/30 border border-slate-800 shrink-0"
+              onError={(e) => {
+                e.currentTarget.src = "https://upload.wikimedia.org/wikipedia/commons/e/ec/National_Privacy_Commission_%28NPC%29.svg";
+              }}
+            />
+            <div className="text-left">
+              <span className="block text-[10px] font-bold text-brand-gold tracking-wider uppercase">NPC Registered</span>
+              <span className="block text-[10px] text-slate-400 font-medium leading-normal mt-0.5">
+                Compliant with the Data Privacy Act of 2012.
+              </span>
+            </div>
           </div>
         </div>
 
