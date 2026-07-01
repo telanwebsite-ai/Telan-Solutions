@@ -1,5 +1,5 @@
 import { motion, AnimatePresence } from 'motion/react';
-import { Menu, X, ChevronLeft, ChevronRight, MapPin, Phone, Mail, Globe, Award, Users, BookOpen, TrendingUp, CheckCircle2, Quote, Sparkles, Rocket, Heart, Play, Pause, Volume2, Maximize, ExternalLink, Calendar, Building2, Target, Server, ShieldCheck, Cpu, Wifi, Database, Network, Lock, MessageCircle, PhoneCall, BarChart3, LayoutDashboard, Wallet, UserCog, Search, CheckSquare, Navigation2, Smile, Zap, MessageSquareText, Trash2, FileText, RefreshCw } from 'lucide-react';
+import { Menu, X, ChevronLeft, ChevronRight, MapPin, Phone, Mail, Globe, Award, Users, BookOpen, TrendingUp, CheckCircle2, Quote, Sparkles, Rocket, Heart, Play, Pause, Volume2, Maximize, ExternalLink, Calendar, Building2, Target, Server, ShieldCheck, Cpu, Wifi, Database, Network, Lock, MessageCircle, PhoneCall, BarChart3, LayoutDashboard, Wallet, UserCog, Search, CheckSquare, Navigation2, Smile, Zap, MessageSquareText, Trash2, FileText, RefreshCw, Facebook } from 'lucide-react';
 import { useState, useEffect, useRef, ChangeEvent, FormEvent, DragEvent, MouseEvent } from 'react';
 import { BrowserRouter, Routes, Route, Link, useLocation } from 'react-router-dom';
 import CulturePage from './components/CulturePage';
@@ -1665,6 +1665,35 @@ const Footer = () => (
                 Compliant with the Data Privacy Act of 2012.
               </span>
             </div>
+          </div>
+        </div>
+        
+        <div>
+          <h4 className="text-white font-bold mb-6">Quick Links</h4>
+          <ul className="space-y-4">
+            <li><Link to="/" className="hover:text-brand-gold">Home</Link></li>
+            <li><Link to="/about" className="hover:text-brand-gold">About</Link></li>
+            <li><Link to="/culture" className="hover:text-brand-gold">Our Culture</Link></li>
+            <li><Link to="/technology" className="hover:text-brand-gold">Technology</Link></li>
+            <li><Link to="/jobs" className="hover:text-brand-gold">Open Jobs</Link></li>
+          </ul>
+        </div>
+
+        <div>
+          <h4 className="text-white font-bold mb-6">Location</h4>
+          <div className="space-y-4 text-sm">
+            <p className="flex items-start">
+              <MapPin className="w-5 h-5 mr-3 text-brand-gold shrink-0" />
+              <span>One San Miguel Avenue Building, Shaw Blvd Ortigas Center, Pasig, <br />NCR, Philippines</span>
+            </p>
+            <p className="flex items-center">
+              <Phone className="w-5 h-5 mr-3 text-brand-gold" />
+              <span>+63 (02) 8640-6600</span>
+            </p>
+            <p className="flex items-center">
+              <Mail className="w-5 h-5 mr-3 text-brand-gold" />
+              <span>info@telanlaw.com</span>
+            </p>
           </div>
         </div>
 
