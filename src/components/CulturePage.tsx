@@ -14,7 +14,7 @@ interface CultureItem {
   description: string;
   category: 'Sports Fest' | 'Christmas Party' | 'Halloween' | 'Training';
 }
-
+ 
 const GALLERY_DATA: CultureItem[] = [
   {
     id: 1,
