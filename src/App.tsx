@@ -1668,7 +1668,7 @@ const Footer = () => (
             {/* Soft glow animation */}
             <div className="absolute -inset-1 bg-gradient-to-r from-brand-gold/20 to-brand-blue/20 rounded-[28px] blur opacity-0 group-hover:opacity-100 transition duration-1000 group-hover:duration-200"></div>
             
-            <div className="relative w-full h-48 bg-slate-900/40 backdrop-blur-sm rounded-[24px] overflow-hidden border border-white/10 shadow-2xl flex items-center justify-center p-6 transition-transform duration-500 group-hover:-translate-y-1">
+            <div className="relative w-full h-48 bg-transparent rounded-[24px] overflow-hidden flex items-center justify-center p-4 transition-transform duration-500 group-hover:-translate-y-1">
             <img 
               src="https://raw.githubusercontent.com/telanwebsite-ai/Telan-Solutions/refs/heads/main/src/images/NPC-LOGO.png" 
               alt="National Privacy Commission Registered Seal" 
