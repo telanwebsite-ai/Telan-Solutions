@@ -18,22 +18,22 @@ interface CultureItem {
 const GALLERY_DATA: CultureItem[] = [
   {
     id: 1,
-    image: "https://raw.githubusercontent.com/telanidt02-coder/Telan-Solutions/refs/heads/main/images/events/sportfest/sp18.jpg",
+    image: "https://raw.githubusercontent.com/telanwebsite-ai/Telan-Solutions/refs/heads/main/images/events/sportfest/sp18.jpg",
     images: [
-      "https://raw.githubusercontent.com/telanidt02-coder/Telan-Solutions/refs/heads/main/images/events/sportfest/sp19-1.jpg",
-      "https://raw.githubusercontent.com/telanidt02-coder/Telan-Solutions/refs/heads/main/images/events/sportfest/sp1.jpg",
-      "https://raw.githubusercontent.com/telanidt02-coder/Telan-Solutions/refs/heads/main/images/events/sportfest/sp2.jpg",
-      "https://raw.githubusercontent.com/telanidt02-coder/Telan-Solutions/refs/heads/main/images/events/sportfest/sp3.jpg",
-      "https://raw.githubusercontent.com/telanidt02-coder/Telan-Solutions/refs/heads/main/images/events/sportfest/sp4.jpg",
-      "https://raw.githubusercontent.com/telanidt02-coder/Telan-Solutions/refs/heads/main/images/events/sportfest/sp5.jpg",
-      "https://raw.githubusercontent.com/telanidt02-coder/Telan-Solutions/refs/heads/main/images/events/sportfest/sp6.jpg",
-      "https://raw.githubusercontent.com/telanidt02-coder/Telan-Solutions/refs/heads/main/images/events/sportfest/sp11.jpg",
-      "https://raw.githubusercontent.com/telanidt02-coder/Telan-Solutions/refs/heads/main/images/events/sportfest/sp12.jpg",
-      "https://raw.githubusercontent.com/telanidt02-coder/Telan-Solutions/refs/heads/main/images/events/sportfest/sp14.jpg",
-      "https://raw.githubusercontent.com/telanidt02-coder/Telan-Solutions/refs/heads/main/images/events/sportfest/sp20-1.jpg",
-      "https://raw.githubusercontent.com/telanidt02-coder/Telan-Solutions/refs/heads/main/images/events/sportfest/sp21.jpg",
-      "https://raw.githubusercontent.com/telanidt02-coder/Telan-Solutions/refs/heads/main/images/events/sportfest/sp23-1.jpg",
-      "https://raw.githubusercontent.com/telanidt02-coder/Telan-Solutions/refs/heads/main/images/events/sportfest/sp22.jpg"
+      "https://raw.githubusercontent.com/telanwebsite-ai/Telan-Solutions/refs/heads/main/images/events/sportfest/sp19-1.jpg",
+      "https://raw.githubusercontent.com/telanwebsite-ai/Telan-Solutions/refs/heads/main/images/events/sportfest/sp1.jpg",
+      "https://raw.githubusercontent.com/telanwebsite-ai/Telan-Solutions/refs/heads/main/images/events/sportfest/sp2.jpg",
+      "https://raw.githubusercontent.com/telanwebsite-ai/Telan-Solutions/refs/heads/main/images/events/sportfest/sp3.jpg",
+      "https://raw.githubusercontent.com/telanwebsite-ai/Telan-Solutions/refs/heads/main/images/events/sportfest/sp4.jpg",
+      "https://raw.githubusercontent.com/telanwebsite-ai/Telan-Solutions/refs/heads/main/images/events/sportfest/sp5.jpg",
+      "https://raw.githubusercontent.com/telanwebsite-ai/Telan-Solutions/refs/heads/main/images/events/sportfest/sp6.jpg",
+      "https://raw.githubusercontent.com/telanwebsite-ai/Telan-Solutions/refs/heads/main/images/events/sportfest/sp11.jpg",
+      "https://raw.githubusercontent.com/telanwebsite-ai/Telan-Solutions/refs/heads/main/images/events/sportfest/sp12.jpg",
+      "https://raw.githubusercontent.com/telanwebsite-ai/Telan-Solutions/refs/heads/main/images/events/sportfest/sp14.jpg",
+      "https://raw.githubusercontent.com/telanwebsite-ai/Telan-Solutions/refs/heads/main/images/events/sportfest/sp20-1.jpg",
+      "https://raw.githubusercontent.com/telanwebsite-ai/Telan-Solutions/refs/heads/main/images/events/sportfest/sp21.jpg",
+      "https://raw.githubusercontent.com/telanwebsite-ai/Telan-Solutions/refs/heads/main/images/events/sportfest/sp23-1.jpg",
+      "https://raw.githubusercontent.com/telanwebsite-ai/Telan-Solutions/refs/heads/main/images/events/sportfest/sp22.jpg"
     ],
     title: "Sports Fest 2026",
     description: "Sports Fest 2026 is more than just a competition. It is a celebration of teamwork, determination, and the strong relationships that drive our organization forward. This annual event brings employees together through exciting sports and recreational activities that encourage collaboration, friendly competition, and personal growth. Beyond the games, Sports Fest 2026 provides an opportunity to build lasting connections, promote health and wellness, and strengthen the spirit of unity across all teams and departments.",
@@ -41,13 +41,13 @@ const GALLERY_DATA: CultureItem[] = [
   },
   {
     id: 2,
-    image: "https://raw.githubusercontent.com/telanidt02-coder/Telan-Solutions/refs/heads/main/images/events/xparty/Cparty_intro.JPG",
+    image: "https://raw.githubusercontent.com/telanwebsite-ai/Telan-Solutions/refs/heads/main/images/events/xparty/Cparty_intro.JPG",
     images: [
-      "https://raw.githubusercontent.com/telanidt02-coder/Telan-Solutions/refs/heads/main/images/events/xparty/xp2-1.JPG",
-      "https://raw.githubusercontent.com/telanidt02-coder/Telan-Solutions/refs/heads/main/images/events/xparty/xp6.JPG",
-      "https://raw.githubusercontent.com/telanidt02-coder/Telan-Solutions/refs/heads/main/images/events/xparty/xp13.JPG",
-      "https://raw.githubusercontent.com/telanidt02-coder/Telan-Solutions/refs/heads/main/images/events/xparty/xp4.JPG",
-      "https://raw.githubusercontent.com/telanidt02-coder/Telan-Solutions/refs/heads/main/images/events/xparty/xp5.JPG"
+      "https://raw.githubusercontent.com/telanwebsite-ai/Telan-Solutions/refs/heads/main/images/events/xparty/xp2-1.JPG",
+      "https://raw.githubusercontent.com/telanwebsite-ai/Telan-Solutions/refs/heads/main/images/events/xparty/xp6.JPG",
+      "https://raw.githubusercontent.com/telanwebsite-ai/Telan-Solutions/refs/heads/main/images/events/xparty/xp13.JPG",
+      "https://raw.githubusercontent.com/telanwebsite-ai/Telan-Solutions/refs/heads/main/images/events/xparty/xp4.JPG",
+      "https://raw.githubusercontent.com/telanwebsite-ai/Telan-Solutions/refs/heads/main/images/events/xparty/xp5.JPG"
     ],
     title: "Christmas Party 2026",
     description: "Christmas Party 2026 is a special occasion to come together and celebrate the achievements, friendships, and memories we have built throughout the year. As we embrace the spirit of the holiday season, this event provides an opportunity for everyone to relax, connect, and enjoy a festive atmosphere filled with laughter, entertainment, and appreciation.",
@@ -55,18 +55,18 @@ const GALLERY_DATA: CultureItem[] = [
   },
   {
     id: 3,
-    image: "https://raw.githubusercontent.com/telanidt02-coder/Telan-Solutions/refs/heads/main/images/events/halloween/H1.jpg",
+    image: "https://raw.githubusercontent.com/telanwebsite-ai/Telan-Solutions/refs/heads/main/images/events/halloween/H1.jpg",
     images: [
-      "https://raw.githubusercontent.com/telanidt02-coder/Telan-Solutions/refs/heads/main/images/events/halloween/H2-1.jpg",
-      "https://raw.githubusercontent.com/telanidt02-coder/Telan-Solutions/refs/heads/main/images/events/halloween/H2.jpg",
-      "https://raw.githubusercontent.com/telanidt02-coder/Telan-Solutions/refs/heads/main/images/events/halloween/H3.jpg",
-      "https://raw.githubusercontent.com/telanidt02-coder/Telan-Solutions/refs/heads/main/images/events/halloween/H4.jpg",
-      "https://raw.githubusercontent.com/telanidt02-coder/Telan-Solutions/refs/heads/main/images/events/halloween/H5-1.jpg",
-      "https://raw.githubusercontent.com/telanidt02-coder/Telan-Solutions/refs/heads/main/images/events/halloween/H6.jpg",
-      "https://raw.githubusercontent.com/telanidt02-coder/Telan-Solutions/refs/heads/main/images/events/halloween/H7-1.jpg",
-      "https://raw.githubusercontent.com/telanidt02-coder/Telan-Solutions/refs/heads/main/images/events/halloween/H8-1.jpg",
-      "https://raw.githubusercontent.com/telanidt02-coder/Telan-Solutions/refs/heads/main/images/events/halloween/H9-1.jpg",
-      "https://raw.githubusercontent.com/telanidt02-coder/Telan-Solutions/refs/heads/main/images/events/halloween/H10.jpg"
+      "https://raw.githubusercontent.com/telanwebsite-ai/Telan-Solutions/refs/heads/main/images/events/halloween/H2-1.jpg",
+      "https://raw.githubusercontent.com/telanwebsite-ai/Telan-Solutions/refs/heads/main/images/events/halloween/H2.jpg",
+      "https://raw.githubusercontent.com/telanwebsite-ai/Telan-Solutions/refs/heads/main/images/events/halloween/H3.jpg",
+      "https://raw.githubusercontent.com/telanwebsite-ai/Telan-Solutions/refs/heads/main/images/events/halloween/H4.jpg",
+      "https://raw.githubusercontent.com/telanwebsite-ai/Telan-Solutions/refs/heads/main/images/events/halloween/H5-1.jpg",
+      "https://raw.githubusercontent.com/telanwebsite-ai/Telan-Solutions/refs/heads/main/images/events/halloween/H6.jpg",
+      "https://raw.githubusercontent.com/telanwebsite-ai/Telan-Solutions/refs/heads/main/images/events/halloween/H7-1.jpg",
+      "https://raw.githubusercontent.com/telanwebsite-ai/Telan-Solutions/refs/heads/main/images/events/halloween/H8-1.jpg",
+      "https://raw.githubusercontent.com/telanwebsite-ai/Telan-Solutions/refs/heads/main/images/events/halloween/H9-1.jpg",
+      "https://raw.githubusercontent.com/telanwebsite-ai/Telan-Solutions/refs/heads/main/images/events/halloween/H10.jpg"
     ],
     title: "Halloween Party",
     description: "Get ready for an unforgettable evening as we celebrate Halloween Party 2026! This exciting event brings everyone together for a night filled with creativity, laughter, and spooky entertainment. From imaginative costumes and themed decorations to fun games, contests, and surprises, the celebration offers a perfect opportunity to showcase your Halloween spirit while enjoying quality time with colleagues and friends.",
@@ -74,10 +74,10 @@ const GALLERY_DATA: CultureItem[] = [
   },
   {
      id: 4,
-    image: "https://raw.githubusercontent.com/telanidt02-coder/Telan-Solutions/refs/heads/main/images/events/training/t1.jpg",
+    image: "https://raw.githubusercontent.com/telanwebsite-ai/Telan-Solutions/refs/heads/main/images/events/training/t1.jpg",
     images: [
-      "https://raw.githubusercontent.com/telanidt02-coder/Telan-Solutions/refs/heads/main/images/events/training/t1.jpg",
-      "https://raw.githubusercontent.com/telanidt02-coder/Telan-Solutions/refs/heads/main/images/events/training/t2.jpg",
+      "https://raw.githubusercontent.com/telanwebsite-ai/Telan-Solutions/refs/heads/main/images/events/training/t1.jpg",
+      "https://raw.githubusercontent.com/telanwebsite-ai/Telan-Solutions/refs/heads/main/images/events/training/t2.jpg",
       "https://images.unsplash.com/photo-1515187029135-18ee286d815b?auto=format&fit=crop&q=80&w=1200&h=800"
     ],
     title: "Training",
