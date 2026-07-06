@@ -1670,7 +1670,7 @@ const Footer = () => (
             
             <div className="relative w-full h-48 bg-white rounded-[24px] overflow-hidden border border-white/10 shadow-2xl flex items-center justify-center p-6 transition-transform duration-500 group-hover:-translate-y-1">
             <img 
-              src="https://raw.githubusercontent.com/telanwebsite-ai/Telan-Solutions/refs/heads/main/src/images/NPC-LOGO.jpg" 
+              src="https://raw.githubusercontent.com/telanwebsite-ai/Telan-Solutions/refs/heads/main/src/images/NPC-LOGO.png" 
               alt="National Privacy Commission Registered Seal" 
               className="w-full h-full object-contain transition-transform duration-300 group-hover:scale-[1.05]"
             />
