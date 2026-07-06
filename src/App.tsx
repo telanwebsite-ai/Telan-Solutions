@@ -244,7 +244,7 @@ const Hero = () => (
       >
         <div className="aspect-[4/3] rounded-2xl overflow-hidden shadow-2xl border-4 border-white/10">
           <img 
-            src="https://images.unsplash.com/photo-1522202176988-66273c2fd55f?q=80&w=2071&auto=format&fit=crop" 
+            src="https://raw.githubusercontent.com/telanwebsite-ai/Telan-Solutions/refs/heads/main/images/Landing-Page1.jpg" 
             alt="Team Meeting" 
             className="w-full h-full object-cover"
           />
