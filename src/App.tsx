@@ -2235,8 +2235,14 @@ const AboutUsPage = () => (
 );
 
 export default function App() {
+  // Dynamically determine basename: use '/Telan-Solutions' ONLY on default GitHub Pages subpath,
+  // otherwise use '/' for custom domains, AI Studio preview, and local development.
+  const basename = window.location.hostname.endsWith('.github.io') && window.location.pathname.startsWith('/Telan-Solutions')
+    ? '/Telan-Solutions'
+    : '/';
+
   return (
-    <BrowserRouter basename="/Telan-Solutions">
+    <BrowserRouter basename={basename}>
       <div className="min-h-screen">
         <Navbar />
         <Routes>
