@@ -49,8 +49,8 @@ const GALLERY_DATA: CultureItem[] = [
       "https://raw.githubusercontent.com/telanwebsite-ai/Telan-Solutions/refs/heads/main/images/events/xparty/xp4.JPG",
       "https://raw.githubusercontent.com/telanwebsite-ai/Telan-Solutions/refs/heads/main/images/events/xparty/xp5.JPG"
     ],
-    title: "Christmas Party 2026",
-    description: "Christmas Party 2026 is a special occasion to come together and celebrate the achievements, friendships, and memories we have built throughout the year. As we embrace the spirit of the holiday season, this event provides an opportunity for everyone to relax, connect, and enjoy a festive atmosphere filled with laughter, entertainment, and appreciation.",
+    title: "Christmas Party 2025",
+    description: "Christmas Party 2025 is a special occasion to come together and celebrate the achievements, friendships, and memories we have built throughout the year. As we embrace the spirit of the holiday season, this event provides an opportunity for everyone to relax, connect, and enjoy a festive atmosphere filled with laughter, entertainment, and appreciation.",
     category: "Christmas Party"
   },
   {
@@ -69,7 +69,7 @@ const GALLERY_DATA: CultureItem[] = [
       "https://raw.githubusercontent.com/telanwebsite-ai/Telan-Solutions/refs/heads/main/images/events/halloween/H10.jpg"
     ],
     title: "Halloween Party",
-    description: "Get ready for an unforgettable evening as we celebrate Halloween Party 2026! This exciting event brings everyone together for a night filled with creativity, laughter, and spooky entertainment. From imaginative costumes and themed decorations to fun games, contests, and surprises, the celebration offers a perfect opportunity to showcase your Halloween spirit while enjoying quality time with colleagues and friends.",
+    description: "Get ready for an unforgettable evening as we celebrate Halloween Party 2025! This exciting event brings everyone together for a night filled with creativity, laughter, and spooky entertainment. From imaginative costumes and themed decorations to fun games, contests, and surprises, the celebration offers a perfect opportunity to showcase your Halloween spirit while enjoying quality time with colleagues and friends.",
     category: "Halloween"
   },
   {
