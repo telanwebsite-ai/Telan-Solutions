@@ -626,7 +626,7 @@ const ExperienceLifeSection = () => {
   const slides = [
     {
       image: "https://raw.githubusercontent.com/telanwebsite-ai/Telan-Solutions/refs/heads/main/images/events/xparty/Cparty_intro.JPG",
-      title: "Christmas Party 2026",
+      title: "Christmas Party 2025",
       description: "Telan Glamorous Christmas, Rock the season. Shine the night.",
     },
     {
