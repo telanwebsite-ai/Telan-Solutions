@@ -12,7 +12,7 @@ interface CultureItem {
   images: string[];
   title: string;
   description: string;
-  category: 'Sports Fest' | 'Christmas Party' | 'Halloween' | 'Training';
+  category: 'Events' | 'Christmas Party' | 'Halloween' | 'Training';
 }
  
 const GALLERY_DATA: CultureItem[] = [
@@ -37,7 +37,7 @@ const GALLERY_DATA: CultureItem[] = [
     ],
     title: "Sports Fest 2026",
     description: "Sports Fest 2026 is more than just a competition. It is a celebration of teamwork, determination, and the strong relationships that drive our organization forward. This annual event brings employees together through exciting sports and recreational activities that encourage collaboration, friendly competition, and personal growth. Beyond the games, Sports Fest 2026 provides an opportunity to build lasting connections, promote health and wellness, and strengthen the spirit of unity across all teams and departments.",
-    category: "Sports Fest"
+    category: "Events"
   },
   {
     id: 2,
@@ -72,8 +72,7 @@ const GALLERY_DATA: CultureItem[] = [
     description: "Get ready for an unforgettable evening as we celebrate Halloween Party 2025! This exciting event brings everyone together for a night filled with creativity, laughter, and spooky entertainment. From imaginative costumes and themed decorations to fun games, contests, and surprises, the celebration offers a perfect opportunity to showcase your Halloween spirit while enjoying quality time with colleagues and friends.",
     category: "Halloween"
   },
-  {
-     id: 4,
+    id: 4,
     image: "https://raw.githubusercontent.com/telanwebsite-ai/Telan-Solutions/refs/heads/main/images/events/training/t1.jpg",
     images: [
       "https://raw.githubusercontent.com/telanwebsite-ai/Telan-Solutions/refs/heads/main/images/events/training/t1.jpg",
@@ -83,11 +82,25 @@ const GALLERY_DATA: CultureItem[] = [
     title: "Training",
     description: "The Training Program 2026 is designed to enhance knowledge, develop essential skills, and support continuous professional growth across the organization. Through structured learning sessions, hands-on activities, and practical discussions, this program aims to equip participants with the tools they need to perform more effectively in their roles.",
     category: "Training"
+  },
+  {
+     id: 5,
+    image: "https://raw.githubusercontent.com/telanwebsite-ai/Telan-Solutions/refs/heads/main/images/events/bebot/Bebot_BG.jpg",
+    images: [
+      "https://raw.githubusercontent.com/telanwebsite-ai/Telan-Solutions/refs/heads/main/images/events/bebot/bebot_4candi.jpg",
+      "https://raw.githubusercontent.com/telanwebsite-ai/Telan-Solutions/refs/heads/main/images/events/bebot/bebot_winner.jpg",
+      "https://raw.githubusercontent.com/telanwebsite-ai/Telan-Solutions/refs/heads/main/images/events/bebot/bebot_winner2.jpg",
+      "https://raw.githubusercontent.com/telanwebsite-ai/Telan-Solutions/refs/heads/main/images/events/bebot/bebot_alvin.jpg",
+      "https://raw.githubusercontent.com/telanwebsite-ai/Telan-Solutions/refs/heads/main/images/events/bebot/bebot_ivory.jpg"
+    ],
+    title: "Mr Bebot",
+    description: "Mr. Bebot 2026 pageant was an absolute crowd-pleaser! Gentlemen took to the stage in full glam, serving high fashion, hilarious talent numbers, and fierce runway walks. Celebrating humor, creativity, and incredible stage presence, the candidates gave everything they had to capture the crown and keep the audience cheering all night long.",
+    category: "Events"
   }
 ];
 
 export default function CulturePage() {
-  const [selectedCategory, setSelectedCategory] = useState<'All' | 'Sports Fest' | 'Christmas Party' | 'Halloween' | 'Training'>('All');
+  const [selectedCategory, setSelectedCategory] = useState<'All' | 'Events' | 'Christmas Party' | 'Halloween' | 'Training'>('All');
   const [activeAlbum, setActiveAlbum] = useState<CultureItem | null>(null);
   const [activePhotoIndex, setActivePhotoIndex] = useState<number>(0);
   const [isPlayingSlideshow, setIsPlayingSlideshow] = useState(false);
