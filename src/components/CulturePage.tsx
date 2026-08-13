@@ -194,7 +194,7 @@ export default function CulturePage() {
         <div className="container-custom">
           {/* Categories Tab Navigation */}
           <div className="flex flex-wrap justify-center gap-2 mb-12 bg-white p-2.5 rounded-2xl shadow-sm border border-slate-100 max-w-2xl mx-auto">
-            {(['All', 'Sports Fest', 'Christmas Party', 'Halloween', 'Training'] as const).map((category) => (
+            {(['All', 'Events', 'Christmas Party', 'Halloween', 'Training'] as const).map((category) => (
               <button
                 key={category}
                 onClick={() => {
