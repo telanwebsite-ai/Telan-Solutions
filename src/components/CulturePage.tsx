@@ -72,6 +72,7 @@ const GALLERY_DATA: CultureItem[] = [
     description: "Get ready for an unforgettable evening as we celebrate Halloween Party 2025! This exciting event brings everyone together for a night filled with creativity, laughter, and spooky entertainment. From imaginative costumes and themed decorations to fun games, contests, and surprises, the celebration offers a perfect opportunity to showcase your Halloween spirit while enjoying quality time with colleagues and friends.",
     category: "Halloween"
   },
+  {
     id: 4,
     image: "https://raw.githubusercontent.com/telanwebsite-ai/Telan-Solutions/refs/heads/main/images/events/training/t1.jpg",
     images: [
