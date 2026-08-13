@@ -632,7 +632,7 @@ const ExperienceLifeSection = () => {
     {
       image: "https://raw.githubusercontent.com/telanwebsite-ai/Telan-Solutions/refs/heads/main/images/events/halloween/H1.jpg",
       title: "Halloween Party",
-      description: ".",
+      description: "Halloween Party 2025",
     },
     {
       image: "https://raw.githubusercontent.com/telanwebsite-ai/Telan-Solutions/refs/heads/main/images/events/sportfest/Sportfest_intro.jpg",
@@ -642,7 +642,12 @@ const ExperienceLifeSection = () => {
     {
       image: "https://raw.githubusercontent.com/telanwebsite-ai/Telan-Solutions/refs/heads/main/images/events/training/t1.jpg",
       title: "Training",
-      description: ".",
+      description: "Empowering new hires daily.",
+    },
+    {
+      image: "https://raw.githubusercontent.com/telanwebsite-ai/Telan-Solutions/refs/heads/main/images/events/bebot/bebot_winner.jpg",
+      title: "Mr Bebot",
+      description: "Mr. Bebot pageant 2026.",
     }
   ];
 
